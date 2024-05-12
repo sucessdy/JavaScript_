@@ -1,0 +1,25 @@
+#special {
+    color: green;
+  }
+  .paragraph {
+    color: aquamarine;
+  }
+  p {
+    color: purple;
+  }
+
+  div {
+    font-family: 'courier';
+  }
+
+  p {
+    background-color: khaki;
+  }
+  div {
+    background-color: lightblue;
+    height: 200px;
+  }
+
+  a {
+    display: block;
+  }
