@@ -25,6 +25,9 @@
  console.log("5" +  3)
  console.log("5" -  3) 
 
+ console.log(  "Hello" / 0)
+
+
  "12"
  
  console.log(parseInt("12"))
@@ -37,3 +40,11 @@
  console.log(typeof Math.round(quantity) )
 
  console.log(NaN === NaN)
+
+//  const useImperativeHandle(
+//    first,
+//    () => {
+//      second
+//    },
+//    [third],
+//  )

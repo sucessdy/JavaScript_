@@ -1,42 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./mrf/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./mrf/style.css" />
     <title>Document</title>
-</head>
-<body>
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"> </div>
 
-
-
-
-
-    
-    <p>Just some paragraph</p>
-<p id="special" class="paragraph" >One with an id</p>
-<p class="paragraph">Just another paragraph</p>
-
-
-
-
-
-
-
-
-
-<div>
-    <p>Here's a paragraph</p>
-
-
-  </div>
-
-  <a href="https://edu.gcfglobal.org">GCFLearnFree</a>
-<a href="https://edu.gcfglobal.org">GCFLearnFree Again</a>
-<a href="https://edu.gcfglobal.org">GCFLearnFree Once More</a>
-
-    <script src="./script.js" type="module"> </script>
-    <script src="./script1.js" type="module"> </script>
-    <script src="mrf/main.js" type="module"> </script>
-</body>
+    <script type="text/babel">
+      function tick() {
+        const element = <h1> {new Date().toLocaleTimeString()} </h1>;
+        ReactDOM.render(element, document.getElementById("root"));
+      }
+      setInterval(tick, 1000); 
+    </script>
+  </body>
 </html>

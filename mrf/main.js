@@ -5,9 +5,9 @@
 // const result = arr.filter(isEven);
 
 // const result1 = arr.filter((x) => x % 2 == 0);
-
 // console.log(result);
 // console.log(result1);
+
 // const result2 = arr.filter((x) => x % 3 == 0);
 // console.log(result2);
 

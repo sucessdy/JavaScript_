@@ -42,3 +42,4 @@ myPromise.then((res) => console.log(res));
 // console.log(typeof myClass);
 
 console.log("start");
+

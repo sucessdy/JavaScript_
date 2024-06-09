@@ -25,6 +25,8 @@ if (true) {
     const z = 233;
 }
 
+console.log(a)
+let a 
 
 // this is the block scope and we fot 
 
